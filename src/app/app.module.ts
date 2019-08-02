@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { HotelComponent } from './hotel/hotel.component';
 import { BookingRoomComponent } from './booking-room/booking-room.component';
 import { SerchComponent } from './serch/serch.component';
+import { XyzComponent } from './xyz/xyz.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SerchComponent } from './serch/serch.component';
     HomeComponent,
     HotelComponent,
     BookingRoomComponent,
-    SerchComponent
+    SerchComponent,
+    XyzComponent
   ],
   imports: [
     BrowserModule,
